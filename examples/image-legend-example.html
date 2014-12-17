@@ -7,7 +7,6 @@
     <script src="../bower_components/angular/angular.min.js"></script>
     <script src="../bower_components/leaflet/dist/leaflet.js"></script>
     <script src="../bower_components/leaflet-plugins/layer/tile/Google.js"></script>
-    <script src="../bower_components/esri-leaflet/dist/esri-leaflet.js"></script>
     <script src="../dist/angular-leaflet-directive.min.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="../bower_components/leaflet/dist/leaflet.css" />
@@ -91,7 +90,7 @@
 </head>
 <body ng-controller="ImageLegendServiceController">
     <h1>Image Legend Service</h1>
-    <p>Use the button to switch another Legend.</p>
+    <p>Use the button to switch another Layer with different legend.</p>
     <leaflet center="usa" layers="layers" markers="markers" height="480px" width="640px" 
     	legend="legend" defaults="options"></leaflet>
     <br/>
